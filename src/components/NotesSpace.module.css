@@ -1,0 +1,117 @@
+.
+.notesGroup {
+  margin-left: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.groupName {
+  font-size: 15px;
+  font-family: Roboto;
+  margin-right: 25px;
+  font-weight: bold;
+  
+  width: 75px;
+  color: white;
+  border-radius: 3px;
+  
+}
+
+.DateTxt {
+  position:absolute;
+  display: none;
+  letter-spacing: 0.55px;
+}
+
+.Text {
+  padding-left: 12px;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.Space {
+  margin: 10px;
+  margin-top: 15px;
+}
+
+.UserInput {
+  height: 18vh;
+  width: 72vw;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 9px;
+  resize: none;
+  border: none;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.596px;
+}
+.NoteGrp {
+  overflow-y: auto;
+  height: 60vh;
+  background-color: #f7ecdc;
+}
+
+.TextInput::placeholder {
+  color: #9a9a9a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.596px;
+}
+
+.Send {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  cursor: pointer;
+}
+.NotesView {
+  border: none;
+  padding-left: 14px;
+  padding-top: 23px;
+  margin-left: 18px;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 89%;
+}
+
+.NotesDate {
+  display: flex;
+  letter-spacing: 0.401px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 90%;
+  margin-left: 25px;
+}
+
+.TxtSpaceMobileView{
+  text-align: justify;
+  margin-top: 35px;
+  position:absolute;
+  margin-left: 23px;
+}
+.TextInputMobile {
+  overflow-y: auto;
+  line-height: normal;
+  letter-spacing: 0.596px;
+  background-color: #f7ecdc;
+}
+.TextInputMobile::placeholder {
+  font-style: roboto;
+  color: #9c9c9c; 
+  font-size: 18px;
+}
+.NoteSpace .DateMobile {
+  background-color: #f7ecdc;
+  text-align: justify;
+  overflow-y: auto;
+  height: 75vh;
+  
+}
